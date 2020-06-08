@@ -4,3 +4,17 @@
 
 @import 'normalize.scss';
 @import 'base.scss';
+@import './helpers/variables';
+@import './helpers/layout.scss';
+@import './components/header-fone-img';
+@import './components/main-nav';
+@import './components/site-logo';
+@import './components/styles-only-header';
+@import './components/basket-button';
+@import './components/link-dundruf';
+@import './components/header-content';
+@import './components/services';
+@import './components/team';
+@import './components/footer.scss';
+@import './components/styles-only-footer.scss';
+@import './helpers/overlay';

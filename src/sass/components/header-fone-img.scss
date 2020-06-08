@@ -1,0 +1,12 @@
+.container-for-bacground-header{
+    background-image: linear-gradient(to top , rgba(251, 227, 137, 0.95) ,  rgba(243, 138, 129, 0.95)), url('../images/eagl-hue.png') ; 
+    display: block;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi){
+    .container-for-bacground-header{
+      background-image: linear-gradient(to top , rgba(251, 227, 137, 0.95) ,  rgba(243, 138, 129, 0.95)), url('../images/eagl-hue@2x.png') ; 
+    }
+  } 

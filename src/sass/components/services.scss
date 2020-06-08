@@ -1,0 +1,80 @@
+.title-section__item--add-margin-button-for-services{
+    margin-bottom: 60px;
+}
+  .services {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px 100px 0px;
+  }
+  
+  .servces__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .services-ul__list-item {
+    position: relative;
+    display: block;
+    width: 300px;
+    padding-left: 80px;
+    list-style-type: none;
+  }
+  .services-ul__list-item:not(:nth-child(3n)){
+      margin-right: 60px;
+  }
+  .services-ul__list-item:nth-last-of-type(n + 4) {
+    margin-bottom: 50px;
+  }
+  .services-ul__list-item::before {
+    display: block;
+    width: 32px;
+    height: 32px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+  .services-ul__item-first:before {
+    background-image: url(../images/alarm.svg);
+  }
+  
+  .services-ul__item-second:before {
+    background-image: url(../images/line-graph.svg);
+  }
+  
+  .services-ul__item-third:before {
+    background-image: url(../images/computer.svg);
+  }
+  
+  .services-ul__item-fourth:before {
+    background-image: url(../images/book.svg);
+  }
+  
+  .services-ul__item-fifth::before {
+    background-image: url(../images/home.svg);
+  }
+  
+  .services-ul__item-sixth::before {
+    background-image: url(../images/iamage.svg);
+  }
+  
+  .services-ul__text {
+    font-size: 15px;
+    line-height: 24px;
+    color: #999999;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+  
+  .services-ul__title {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+  }
