@@ -6,8 +6,8 @@
     &-main-title{
       font-size: 72px;
       margin-bottom: 66px;
-      color: #ffffff;
-      font-family: "Kaushan Script";
+      color: $main-color;
+      font-family: $kaushan-skript;
       font-weight: 400;
       text-align: center;  
     }
@@ -18,8 +18,8 @@
       font-size: 150px;
       line-height: 140px;
       margin-bottom: 124px;
-      color: #ffffff;
-      font-family: "Montserrat";  
+      color:$main-color;
+      font-family: $montserat;  
       font-weight: 700;
       text-align: center;
       text-transform: uppercase;

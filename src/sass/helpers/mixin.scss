@@ -1,0 +1,5 @@
+@mixin for-before-and-after ($display:block ,$content:'') {
+    display: $display;
+    content: $content;
+}
+

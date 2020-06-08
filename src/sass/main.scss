@@ -3,7 +3,8 @@
 @import 'base.scss';
 @import 'fonts';
 @import './helpers/variables';
-@import './helpers/layout.scss';
+@import './helpers/mixin';
+@import './helpers/function-and-reuse-things.scss';
 @import './components/header-fone-img';
 @import './components/main-nav';
 @import './components/site-logo';
@@ -16,3 +17,4 @@
 @import './components/footer.scss';
 @import './components/styles-only-footer.scss';
 @import './helpers/overlay';
+@import './components/button-for-upload.scss';

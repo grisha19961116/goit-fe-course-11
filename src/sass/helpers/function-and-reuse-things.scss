@@ -1,10 +1,11 @@
-.button-for-upload{
+
+  %button-for-upload{
     cursor: pointer;
     width: 150px;
     height: 40px;
     font-size: 14px;
-    color: #ffffff;
-    font-family: "Montserrat";
+    color: $main-color;
+    font-family: $montserat;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -16,8 +17,8 @@
     display: block;
     margin: 0px auto;
     font-size: 30px;
-    font-family: "Montserrat";
-    color: rgb(51, 51, 51);
+    font-family: $montserat;
+    color: $second-color;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 1.2;
@@ -32,9 +33,10 @@
     }
     &__item {
       display: block;
+      margin-bottom: 10px;
       font-size: 24px;
-      color: #333333;
-      font-family: "Kaushan Script";
+      color: $second-color;
+      font-family: $kaushan-skript;
       font-weight: 400;
       text-align: center;
     }

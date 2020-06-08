@@ -24,10 +24,9 @@
         margin-bottom: 50px;
       }
       &::before {
-        display: block;
+        @include for-before-and-after() ;
         width: 32px;
         height: 32px;
-        content: "";
         position: absolute;
         top: 0;
         left: 20px;
@@ -36,15 +35,15 @@
       &__text {
         font-size: 15px;
         line-height: 24px;
-        color: #999999;
-        font-family: "Roboto";
+        color: $third-color;
+        font-family: $robboto;
         font-weight: 400;
       }
       &__title {
         margin-bottom: 10px;
         font-size: 14px;
-        color: #333333;
-        font-family: "Montserrat";
+        color: $second-color;
+        font-family: $montserat;
         font-weight: 400;
         text-transform: uppercase;
       }
