@@ -8,9 +8,9 @@
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
-  }
-  .button-for-upload:active{
-    border: 3px solid orange;
+    &:active{
+      border: 3px solid orange;
+    }
   }
   .title-section {
     display: block;
@@ -22,24 +22,21 @@
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
+    &::after {
+      display: block;
+      content: "";
+      margin: 40px auto 0px auto;
+      background-color: rgb(243, 129, 129);
+      width: 60px;
+      height: 3px;
+    }
+    &__item {
+      display: block;
+      font-size: 24px;
+      color: #333333;
+      font-family: "Kaushan Script";
+      font-weight: 400;
+      text-align: center;
+    }
   }
   
-  .title-section::after {
-    display: block;
-    content: "";
-    margin: 40px auto 0px auto;
-    background-color: rgb(243, 129, 129);
-    width: 60px;
-    height: 3px;
-  }
-  .title-section__item {
-    display: block;
-    font-size: 24px;
-    color: #333333;
-    font-family: "Kaushan Script";
-    font-weight: 400;
-    text-align: center;
-  }
-  .title-section__item--add-margin-button-for-services{
-    margin-bottom: 60px;
-}

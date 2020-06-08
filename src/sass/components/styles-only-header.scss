@@ -1,17 +1,16 @@
-.basket-cart--margin-right-in-header:hover:after{
-    top: 35px;
-  }
-  
+
   .basket-cart--margin-right-in-header {
     position: relative;
     margin-right: 50px;
+    &:hover:after{
+      top: 35px;
+    }
   }
-  .dundruff--hover-header:hover:after{
-    top: 25px;
-  }
-  
   .dundruff--hover-header{
     position: relative;
+    &:hover:after{
+      top: 25px;
+    }
   }
   .button-for-upload__button-header{
     display: block;
